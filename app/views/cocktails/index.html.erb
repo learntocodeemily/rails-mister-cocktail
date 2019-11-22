@@ -10,7 +10,7 @@
 <div class="d-flex">
   <% @cocktails.each do |c| %>
     <div class="card" style="width: 18rem;">
-      <%=image_tag "long-island-iced-tea.jpeg", class: "card-img-top" %>
+      <%=image_tag "https://source.unsplash.com/1600x900/?cocktail", class: "card-img-top" %>
 
       <div class="card-body">
         <p class="card-text"><%= link_to c.name, cocktail_path(c) %></p>
