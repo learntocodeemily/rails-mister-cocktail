@@ -18,3 +18,8 @@ drinks_array = drinks_hash["drinks"]
 drinks_array.each do |item|
   Ingredient.create!(name: item["strIngredient1"])
 end
+
+Cocktail.create(name: "Long Island Iced Tea")
+Cocktail.create(name: "Martini")
+Cocktail.create(name: "Margaret")
+
